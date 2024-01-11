@@ -11,13 +11,18 @@ body{
     height: 100vh;
     width: 100vw;
 
-    -webkit-mask-image: linear-gradient(#125038, #16C78200);
     background: url(../Assets/Backgrounds/Background-ImageMobile.png) no-repeat center/ cover;
 }
 
 main{
     display: flex;
     flex-wrap: wrap;
+
+    margin: 0 auto;
+    margin-top: 164px;
+
+    width: 280px;
+    justify-content: center;
 }
 
 .container{
@@ -33,10 +38,25 @@ main{
     font-size: 12px;
 }
 
-#email{
-    background-image: url("https://i.imgur.com/eKw2dvH.png");
+#email, #pass{
+    background-image: url(../Assets/Icon/mail.svg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 1.3em;
-    padding-left: 1.3em;
+
+    padding: 10px;
+    padding-left: 2em;
+
+    margin-bottom: 30px;
+
+    border: none;
+    outline: none;
+
+    width: 250px;
+
+    border-radius: 10px;
+}
+
+#pass{
+    background-image: url(../Assets/Icon/lock.svg);
 }
