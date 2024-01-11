@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+    -webkit-mask-image: linear-gradient(#125038, #16C78200);
+    background: url(../Assets/Backgrounds/Background-ImageMobile.png) no-repeat center/ cover;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+
+    margin-top: 106px;
+}
+
+.container p {
+    font-size: 12px;
+}
+
+#email{
+    background-image: url("https://i.imgur.com/eKw2dvH.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+}
