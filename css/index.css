@@ -96,6 +96,51 @@ button:focus{
     text-decoration: underline;
 }
 
+.btnLogins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    height: 50px;
+
+    margin-bottom: 24px;
+}
+
+.apple, .facebook, .google{
+    width: 40px;
+
+    background-color: white;  
+}
+
+.apple:focus, .facebook:focus, .google:focus{
+    border: 2px solid rgb(97, 91, 80);
+
+    transform: scale(0.9);
+}
+
+.apple{
+    background-image: url(../Assets/Icon/apple-seeklogo.com.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5em;
+}
+
+.facebook{
+    background-image: url(../Assets/Icon/facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3em;
+}
+
+.google{
+    background-image: url(../Assets/Icon/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5em;
+}
+
 #email, #pass{
     background-image: url(../Assets/Icon/mail.svg);
     background-repeat: no-repeat;
