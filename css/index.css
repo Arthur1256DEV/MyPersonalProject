@@ -25,6 +25,50 @@ main{
     justify-content: center;
 }
 
+a{
+    color: white;
+    font-weight: bold;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 32px;
+    margin-bottom: 24px;
+
+    width: 300px;
+
+    align-items: center;
+    
+    background-color: #0ACF83;
+    color: white;
+    
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:focus{
+    transform: scaleX(1.1);
+    border: 3px solid #116444;
+}
+
 .container{
     color: white;
     font-size: 52px;
@@ -38,10 +82,20 @@ main{
     font-size: 12px;
 }
 
+.TxtSign{
+    color: white;
+    font-size: 12px;
+}
+
+.signUp{
+    color: #0ACF83;
+    text-decoration: underline;
+}
+
 #email, #pass{
     background-image: url(../Assets/Icon/mail.svg);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 5px;
     background-size: 1.3em;
 
     padding: 10px;
@@ -55,8 +109,14 @@ main{
     width: 250px;
 
     border-radius: 10px;
+
+    transition: all .3s;
 }
 
 #pass{
     background-image: url(../Assets/Icon/lock.svg);
+}
+
+#email:focus, #pass:focus{
+    transform: scale(1.1);
 }
