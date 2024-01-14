@@ -69,6 +69,10 @@ button:focus{
     border: 3px solid #116444;
 }
 
+.BtnSign{
+    margin-top: initial;
+}
+
 .container{
     color: white;
     font-size: 52px;
