@@ -1,0 +1,49 @@
+body{
+    background-image: none;
+}
+
+main{
+    display: initial;
+    flex-wrap: initial;
+
+    margin-top: 0px;
+
+    width: initial;
+    justify-content: center;
+}
+
+.navHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20vw;
+
+    min-width: 320px;
+}
+
+.btn-nav{
+    background-image: url(../Assets/Icon/menu-variant.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+
+    width: 20px;
+    height: 20px;
+}
+
+.btn-nav:focus{
+    border: none;
+}
+
+.logo-home{
+    width: 84px;
+    height: 25px;
+}
+
+.Avatar{
+    width: 40px;
+    height: 40px;
+
+    border-radius: 15px;
+}
