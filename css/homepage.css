@@ -5,11 +5,18 @@ body{
 main{
     display: initial;
     flex-wrap: initial;
-
+    
     margin-top: 0px;
-
-    width: initial;
+    
+    width: 70vw;
     justify-content: center;
+}
+
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .navHome{
@@ -46,4 +53,27 @@ main{
     height: 40px;
 
     border-radius: 15px;
+}
+
+#txtSearch{
+    background-image: url(../Assets/Icon/searchInput.svg);
+    background-repeat: no-repeat;
+    background-position: 7px;
+    background-size: 1.5em;
+
+    padding: 15px;
+    padding-left: 30px;
+
+    margin-top: 25px;
+
+    border: .5px solid #BABABA;
+    border-radius: 10px;
+
+    width: 30vw;
+
+    transition: all .3s;
+}
+
+#txtSearch:focus{
+    width: 35vw;
 }
