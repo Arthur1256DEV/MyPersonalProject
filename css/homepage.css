@@ -52,7 +52,7 @@ main{
     width: 40px;
     height: 40px;
 
-    border-radius: 15px;
+    border-radius: 20px;  
 }
 
 #txtSearch{
@@ -76,4 +76,106 @@ main{
 
 #txtSearch:focus{
     width: 35vw;
+}
+
+/*Modificando a parte cinza e listagem com rolagem*/
+
+.market{
+    height: 100vh;
+    width: 50vw;
+    background-color: #F6F6F6;
+
+    border-radius: 15px;
+
+    padding: 32px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.roll{
+    display: flex;
+    overflow: scroll;
+
+}
+
+.roll ul{
+    display: flex;
+    gap: 3em;
+    
+    padding: 15px;
+}
+
+.roll ul li a{
+    padding: 10px 15px;
+    border-radius: 15px;
+    
+    cursor: pointer;
+    
+    color: #7F7F7F;
+
+    transition: all .3s;
+}
+
+.roll ul li a:hover{
+    transform: scale(1.1);
+}
+
+.roll ul li a:focus{
+    background-color: #0ACF83;
+    color: white;
+}
+
+.LinkHomePage:hover{
+    text-decoration: none;
+}
+
+.roll::-webkit-scrollbar{
+    height: 5px;
+}
+
+.roll::-webkit-scrollbar-thumb{
+    background-color: #7F7F7F;
+    border-radius: 15px;
+    
+}
+
+.roll::-webkit-scrollbar-corner{
+    display: none;
+}
+
+/*Modificando a segunda parte da rolagem*/
+
+.containerMarket{
+    display: flex;
+    overflow-wrap: break-word;
+
+    margin-top: 20px;
+    padding: 20px;
+
+    width: 326px;
+
+    border-radius: 15px;
+
+    background-color: white;
+    text-align: left;
+}
+
+.imgMarket img{
+    height: 135px;
+    width: 117px;
+}
+
+.LinkMarketPage{
+    color: #0ACF83;
+}
+
+.LinkMarketPage img{
+    vertical-align: top;
+}
+
+.textMarket h1{
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-bottom: 28px;
 }
