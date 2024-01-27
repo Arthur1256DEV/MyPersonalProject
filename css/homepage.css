@@ -82,7 +82,7 @@ main{
 
 .market{
     height: 100vh;
-    width: 50vw;
+    width: 70vw;
     background-color: #F6F6F6;
 
     border-radius: 15px;
@@ -147,6 +147,7 @@ main{
 
 .containerMarket{
     display: flex;
+    margin-right: 3em;
     overflow-wrap: break-word;
 
     margin-top: 20px;
@@ -179,3 +180,60 @@ main{
 
     margin-bottom: 28px;
 }
+
+/*Modificando a terceira parte da rolagem*/
+
+.containerFeatureProd{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.containerFeatureProd h2{
+    font-weight: 500;
+}
+
+.SeeAll{
+    background: none;
+    margin: initial;
+    padding: initial;
+
+    color: #7F7F7F;
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.SeeAll:focus{
+    border: none;
+    transform: initial;
+}
+
+.containerMarket2{
+    display: initial;
+
+    height: fit-content;
+    width: 130px;
+
+    padding: 15 10;
+}
+
+.imgMarket2{
+    height: 125px;
+    width: 125px;
+}
+
+.textMarket2 h1{
+    font-size: 14px;
+    font-weight: 200;
+    
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.price{
+    font-weight: 700;
+}
+
+
