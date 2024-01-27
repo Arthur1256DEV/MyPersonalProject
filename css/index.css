@@ -6,6 +6,9 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+hr{
+    width: 100vw;
+}
 
 body{
     height: 100vh;

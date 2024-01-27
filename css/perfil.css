@@ -1,0 +1,68 @@
+.h1-profile{
+    font-size: 14px;
+}
+
+.navProfile{
+    display: flex;
+    align-items: center;
+
+    margin-left: 24px;
+    margin-top: 15px;
+
+    min-width: 320px;
+}
+
+.navProfile h1{
+    margin: auto;
+}
+
+.navProfile a img{
+    vertical-align: middle;
+}
+
+/*Modificando o layout do perfil*/
+
+.profile-info{
+    display: flex;
+    align-items: center;
+}
+
+.profile-info .profile-avatar{
+    height: 65px;
+    width: 65px;
+
+    margin: 24px 26px;
+
+    border-radius: 50px;
+}
+
+.infos-avatar{
+    width: 100vw;
+    word-wrap: break-word;
+}
+
+.infos-avatar p{
+    color: #7F7F7F;
+}
+
+.infos-avatar h2{
+    font-weight: 500;
+}
+
+/*Modificando o layout da aba de configuração*/
+
+.container-config p{
+    margin: 15px 24px;
+}
+
+.container-config a{
+    color: black;
+    font-weight: 500;
+}
+
+.container-config .titleProfile{
+    color: #7F7F7F;
+
+    margin-bottom: 35px;
+}
+
