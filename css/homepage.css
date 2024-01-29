@@ -17,6 +17,7 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
 }
 
 .navHome{
@@ -95,7 +96,6 @@ main{
 .roll{
     display: flex;
     overflow: scroll;
-
 }
 
 .roll ul{
@@ -122,6 +122,8 @@ main{
 
 .roll ul li a:focus{
     background-color: #0ACF83;
+    border: none;
+    outline: none;
     color: white;
 }
 
